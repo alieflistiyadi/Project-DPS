@@ -500,7 +500,7 @@ A perfect place to unwind, whether day or night.</p>
          <div class="swiper-slide box">
             <img src="images/pic-6.png" alt="">
             <h3>laura zee</h3>
-            <p>" had an outstanding stay at this hotel. The accommodations were comfortable and thoughtfully furnished, the team was courteous and responsive, and everything went smoothly from check-in to check-out. It’s a top choice for those who value excellent service and a relaxing atmosphere."</p>
+            <p>"I had an outstanding stay at this hotel. The accommodations were comfortable and thoughtfully furnished, the team was courteous and responsive, and everything went smoothly from check-in to check-out. It’s a top choice for those who value excellent service and a relaxing atmosphere."</p>
          </div>
       </div>
 
