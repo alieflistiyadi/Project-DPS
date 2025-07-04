@@ -465,8 +465,9 @@ A perfect place to unwind, whether day or night.</p>
 <!-- contact section ends -->
 
 <!-- reviews section starts  -->
-
+<!-- Commit perubahan oleh akun B -->
 <section class="reviews" id="reviews">
+
 
    <div class="swiper reviews-slider">
 
@@ -499,7 +500,7 @@ A perfect place to unwind, whether day or night.</p>
          <div class="swiper-slide box">
             <img src="images/pic-6.png" alt="">
             <h3>laura zee</h3>
-            <p>"The hotel exceeded all my expectations. The room was spacious and well-equipped, the staff was attentive, and the overall experience was seamless. I highly recommend this place for anyone seeking comfort and quality service."</p>
+            <p>"This hotel truly exceeded my expectations. The room was spacious and fully equipped, the staff were friendly and helpful, and the overall stay was smooth and enjoyable. I highly recommend it to anyone looking for comfort and quality service."</p>
          </div>
       </div>
 
