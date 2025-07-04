@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `bookings` (
+   `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   `user_id` INT NOT NULL,
+   `room_number` VARCHAR(10) NOT NULL,
+   `check_in` DATE NOT NULL,
+   `check_out` DATE NOT NULL,
+   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

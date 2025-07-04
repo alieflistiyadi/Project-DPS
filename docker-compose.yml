@@ -1,0 +1,34 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: hotel_mysql2
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: hotel_db
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./Hotel/backend/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - hotelnet
+
+  app:
+    build: ./Hotel/backend
+    container_name: hotel_app
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    volumes:
+      - ./Hotel/frontend:/var/www/html
+      - ./Hotel/backend/components:/var/www/backend_components
+    networks:
+      - hotelnet
+
+volumes:
+  mysql_data:
+
+networks:
+  hotelnet:
+    driver: bridge
+  
